@@ -51,3 +51,6 @@ This is a screenshot of the service workers.
 ## License
 The project is licensed under MIT. For more information, please refer to the LICENSE in the repo.
   
+
+  Source
+  <a href="https://www.freepik.com/free-vector/white-gray-geometric-pattern-background-vector_18240979.htm#query=website%20background&position=15&from_view=keyword&track=ais">Image by rawpixel.com</a> on Freepik

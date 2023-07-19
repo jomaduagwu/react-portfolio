@@ -1,39 +1,71 @@
-import logo from './logo.svg';
+// import logo from './logo.svg'; 
 import './App.css';
-import React from 'react';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
-import Project from './components/Project';
-import Footer from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import backgroundImage from './components/Assets/backgroundimgwhite.jpg';
+import React, { useState } from 'react';
+import Header from './components/Header/Header';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Navigation from './components/Navigation/Navigation';
+import Project from './components/Project/Project';
+import Footer from './components/Footer/Footer';
+import Form from './components/Form/Form';
 
 function App() {
+  const [currentTab, setCurrentTab] = useState('about');
+
+  const handleTabChange = (tab) => {
+    setCurrentTab(tab);
+  };
+
+  const renderTab = () => {
+    switch (currentTab) {
+      case 'About':
+        return <About />;
+      case 'Contact':
+        return <Contact />;
+      case 'Project':
+        return <Project />;
+      default:
+        return <About />;
+    }
+  };
+
   return (
-    <div>
+    <div className="app-container"
+    style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover' }}>
       <Header />
-      <Navigation />
-      <Project />
-      <Project />
-      <Project />
-      <Project />
+      <Navigation currentTab={currentTab} handleTabChange={handleTabChange} />
+      {renderTab()}
       <Footer />
     </div>
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
+    // if (currentTab === 'About') {
+    //   return <About />;
+    // }
+    // if (currentTab === 'Contact') {
+    //   return <Contact />;
+    // }
+    // if (currentTab === 'Project') {
+    //   return <Project />;
+    // }
+    // return <About />;
+  
+  // }
+//   return (
+//     <div>
+//       <Header />
+//       <Navigation />
+//       <About />
+//       <Project />
+//       <Project />
+//       <Contact />
+//       <Footer />
+//     </div>
+   
+//   );
+// }
 
 export default App;
