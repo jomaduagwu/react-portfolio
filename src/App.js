@@ -10,7 +10,7 @@ import Contact from './components/Contact/Contact';
 import Navigation from './components/Navigation/Navigation';
 import Project from './components/Project/Project';
 import Footer from './components/Footer/Footer';
-import Form from './components/Form/Form';
+
 
 function App() {
   const [currentTab, setCurrentTab] = useState('about');
@@ -37,23 +37,15 @@ function App() {
     style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover' }}>
       <Header />
       <Navigation currentTab={currentTab} handleTabChange={handleTabChange} />
-      {renderTab()}
+        {/* {currentTab === 'About' && <About />}
+        {currentTab === 'Project' && <Project />}
+        {currentTab === 'Contact' && <Contact />} */}
+        {renderTab()}
       <Footer />
     </div>
   );
 }
-    // if (currentTab === 'About') {
-    //   return <About />;
-    // }
-    // if (currentTab === 'Contact') {
-    //   return <Contact />;
-    // }
-    // if (currentTab === 'Project') {
-    //   return <Project />;
-    // }
-    // return <About />;
-  
-  // }
+
 //   return (
 //     <div>
 //       <Header />
