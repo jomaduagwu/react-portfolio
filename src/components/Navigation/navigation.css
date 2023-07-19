@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 20px;
+    cursor: pointer;
+  }
+  
+  li.active {
+    color: #007bff; 
+    font-weight: bold;
+
+  }
+  
+  
+  li:hover {
+    color: #007bff; 
+  }

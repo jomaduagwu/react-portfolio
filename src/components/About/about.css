@@ -1,0 +1,23 @@
+/* set the image and paragraph to be side-to-side */
+.about-content {
+    display:flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width:100%;
+  }
+  
+  /* changed the font-style to italic */
+  .about-content p {
+    font-style: italic;
+  }
+  
+  /* set a rounded border for profile image */
+  .profile-img {
+    height: 250px;
+    display: flex;
+    border-radius: 50px;
+  }
+  
+  h2, h3{
+    text-align:center;
+  }

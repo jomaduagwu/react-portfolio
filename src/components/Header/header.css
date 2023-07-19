@@ -1,0 +1,35 @@
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    width: 100%;
+    color: rgb(246, 242, 242);
+  } 
+  
+  /* set the navigation links to display on the same line and justified to the right */
+   nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 0;
+  } 
+  
+  nav li {
+    margin: 0 2px;
+  }
+  
+  /* removed the underline from the links and set the color */
+  nav a {
+    text-decoration: none;
+    color: rgb(37, 35, 35);
+    padding: 2px;
+    font-weight: bold;
+  }
+  
+  /* set a hover effect for the navigation links */
+  nav a:hover {
+    color: var(--light-purple);
+  }
