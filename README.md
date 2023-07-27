@@ -19,7 +19,7 @@
  ## Usage
   The application has been deployed to GitHub Pages. The URL of the deployed application is https://jomaduagwu.github.io/react-portfolio/ 
   
-![react portfolio screenshot](./src/components/Assets/reactappscreenshot.png)
+![react portfolio screenshot](./src/components/Assets/react-app-screenshot.png)
   
 
 ## Features
