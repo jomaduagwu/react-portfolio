@@ -10,6 +10,7 @@ import Contact from './components/Contact/Contact';
 import Navigation from './components/Navigation/Navigation';
 import Project from './components/Project/Project';
 import Footer from './components/Footer/Footer';
+import Resume from './components/Resume/Resume'; 
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
         return <Contact />;
       case 'Project':
         return <Project />;
+        case 'Resume':
+          return <Resume />;
       default:
         return <About />;
     }

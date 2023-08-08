@@ -24,6 +24,12 @@ function Navigation ({ currentTab, handleTabChange }) {
                 >
                     Contact
                 </li>
+                <li
+                    className={currentTab === 'Resume' ? 'active' : ''}
+                    onClick={() => handleTabChange('Resume')}
+                >
+                    Resume
+                </li>
                 {/* <li
                     className={currentTab === 'contact' ? 'active' : ''}
                     onClick={() => handleTabChange('contact')}
