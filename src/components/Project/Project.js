@@ -7,6 +7,7 @@ import horiseon from '../Assets/horiseon-webpage-screenshot.png';
 import codingquiz from '../Assets/coding-quiz-screenshot.png';
 import pswdgen from '../Assets/pswd-generator.png';
 import scheduler from '../Assets/work-day-scheduler-screenshot.png';
+import wanderjo from '../Assets/wanderjoscreenshot1.png';
 import './Project.css';
 
 
@@ -18,6 +19,7 @@ function Project() {
         pswdgen: 'https://github.com/jomaduagwu/friendly-parakeet',
         codingquiz: 'https://github.com/jomaduagwu/code-quiz',
         scheduler: 'https://github.com/jomaduagwu/work-day-scheduler',
+        wanderjo: 'https://github.com/jomaduagwu/wanderjo-app',
     };
 
   return (
@@ -36,6 +38,16 @@ function Project() {
                             <a href={repoLinks.hotspots}>GitHub Repository</a>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="card md-6">
+                <a href="https://jomaduagwu.github.io/react-portfolio/">
+                    <img src={wanderjo} className="card-img-top" alt="WanderJo Travel App" />
+                </a>
+                <div className="card-body">
+                    <h5 className="card-title">WanderJo Travel App</h5>
+                    <p className="card-text">A trip planner designed to help users search for travel destinations and discover exciting attractions.</p>
+                    <a href={repoLinks.wanderjo}>GitHub Repository</a>
                 </div>
             </div>
             <div className="card md-6">
