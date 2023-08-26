@@ -5,8 +5,7 @@ function Resume() {
   return (
     <div className="resume-container">
       <h2>My Resume</h2>
-      {/* Add the content of your resume here */}
-      <a href="https://drive.google.com/file/d/1KxA-_JtK5RHaYQ3gKepJN6OCFJItUw7K/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+      <a href="https://drive.google.com/file/d/1-GV29uuG_5o52xTjWumh8_IMPsXVI0_0/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         Download Resume
       </a>
 
@@ -14,25 +13,20 @@ function Resume() {
         <h2>Jochebed Maduagwu</h2>
         <p>Houston, TX | 346-329-2655 | jomaduagwu@gmail.com</p>
         <a href="www.linkedin.com/in/jochebed-maduagwu-26341148">LinkedIn</a> |
-        <a href="https://github.com/jomaduagwu">Github</a> | <a href="https://jomaduagwu.github.io/portfolio/">Portfolio</a>
+        <a href="https://github.com/jomaduagwu">Github</a> 
         
         <h3>SUMMARY</h3>
-        <p>Detail-oriented and motivated Full Stack Web Developer with a strong background in data analytics. 
-            I have recently transitioned my career from Epidemiology to the dynamic world of web development, 
-            bringing a unique perspective to the tech industry. I have a keen eye for detail, and my ability 
-            to gather and analyze data, previously applied in epidemiology, now serves as a powerful asset in 
-            debugging and improving web applications.
+        <p>Full Stack Web Developer transitioning from a career as an Epidemiologist, equipped with a 
+            diverse background in data analysis and now focused on enhancing web applications and 
+            debugging. Recently completed a Full Stack Development certificate program. Proficient in 
+            collaborating with cross-functional teams to deliver impactful projects, ensuring precision 
+            and quality. Excited to contribute creativity and skills to web development projects, 
+            aligning with teams that prioritize excellence. Over 5 years of experience in data-driven 
+            decision-making and impactful collaborations.
             </p>
-            <p>My technical skills include proficiency in HTML, CSS, JavaScript, MongoDB, and MySQL. 
-            I am excited to contribute my skills and creativity to dynamic web development projects and collaborate 
-            with passionate teams that share my commitment to excellence.
-        </p>
 
         <h3>TECHNICAL SKILLS</h3>
-        <p>Web Development: HTML, CSS, JavaScript, React, Node.js, Express.js, jQuery, Bootstrap</p>
-        <p>Databases: MongoDB, MySQL</p>
-        <p>Data Analysis: Excel, SQL, Tableau, SAS, SPSS, R</p>
-        <p>GIS Mapping</p>
+        <p>Web Development: HTML, CSS, JavaScript, React, Node.js, Express.js, jQuery, Bootstrap, MongoDB, MySQL</p>
 
         <h3>EXPERIENCE</h3>
         <div className="experience">
@@ -40,9 +34,9 @@ function Resume() {
                 <p>Kansas Department of Health</p>
                 <p>Remote | January 2022 - Present</p>
                     <ul className="experience-list">
-                        <li>Supervised a team of 20+ case investigators responsible for COVID-19 case surveillance investigations of Kansas residents</li>
-                        <li>Delegated cases daily and ensured appropriate documentation of all information gathered during case interview</li>
-                        <li>Ensured quality performance metrics were met by case investigators through weekly feedback sessions and coaching</li>
+                        <li>Led and directed a high-performing team of 20+ case investigators, conducting comprehensive COVID-19 case surveillance investigations of Kansas residents, ensuring accurate data collection and timely reporting.</li>
+                        <li>Delegated an average of 200 cases daily and ensured appropriate documentation of all information gathered during case interviews.</li>
+                        <li>Achieved and maintained a 98% compliance rate by conducting weekly feedback sessions and providing targeted coaching, resulting in improved quality performance metrics.</li>
                     </ul>
         </div>
 
@@ -51,48 +45,77 @@ function Resume() {
                 <p>Harris County Public Health</p>
                 <p>Houston, TX | March 2020 - January 2022</p>
                     <ul>
-                        <li>Supervised the multidisciplinary teams – Workplace Investigations Team, School 
-                            Investigations Team, and  Healthcare Investigations Team, which are responsible 
-                            for COVID-19 case surveillance investigation, contact  tracing, and facility assessments 
-                            in congregate and high-risk settings</li>
-                        <li>Provided leadership with comprehensive updates and created reports summarizing the teams’ 
-                            activities</li>
-                        <li>Provided COVID-19 guidance to employers and businesses; reviewed operating/reopening plans 
-                            and conducted  site assessments for facilities to ensure compliance with COVID-19 social 
-                            distancing guidance </li>
-                        <li>Conducted quality assurance and performance monitoring to ensure team members’ efforts were 
-                            aligned with  SOPs for contact tracing and case investigations; worked with team members to 
-                            address conflict or issues
-                        </li>
-                        <li>Collaborated with epidemiologists and other supervisors in establishing priorities for case 
-                            investigations and  contact tracing; developed workflows for quality assurance, daily reports, 
-                            and contacts tracking</li>  
+                        <li>Managed 3 multidisciplinary teams with 60+ members. Led COVID-19 case surveillance, contact tracing, and facility assessments in high-risk settings, achieving a 15% reduction in transmission rates.</li>
+                        <li>Developed and delivered comprehensive updates and insightful reports, highlighting the team’s operational achievements; enabled data-driven decision-making and facilitated continuous improvement efforts.</li>
+                        <li>Advised and guided 20+ employers and businesses on implementing vital COVID-19 measures, driving strategic decision-making. </li>
+                        <li>Implemented and maintained a comprehensive quality assurance framework to monitor performance and SOP compliance for contact tracing and case investigations; achieved a 30% reduction in errors.</li>
+                        <li>Collaborated with epidemiologists and other supervisors in establishing priorities for case investigations and contact tracing; developed workflows for quality assurance, daily reports, and contact tracking.</li>  
+                    </ul>
+        </div>
+
+        <div className="experience">
+            <h4>National Youth Service Corps Member  (one-year compulsory community service)</h4>
+                <p>Edgewood College</p>
+                <p>Lagos, Nigeria | July 2017 - June 2018</p>
+                    <ul>
+                        <li>Recruited 150+ students for entrance exams, yielding a 97% increase in applications.</li>
+                        <li>Spearheaded a college fair with 21+ institutions, fostering connections and raising awareness.</li>
+                    </ul>
+        </div>
+
+        <div className="experience">
+            <h4>Maternal and Child Health Epidemiologist</h4>
+                <p>Hamilton County Public Health</p>
+                <p>Cincinnati, OH | August 2016 - June 2017</p>
+                    <ul>
+                        <li>Conducted Perinatal Periods of Risk Analyses (PPOR), identifying critical high-mortality periods. Implemented targeted interventions, leading to a 24% county-wide infant mortality reduction.</li>
+                        <li>Translated findings into actionable reports on intervention progress, driving a 25% improvement in intervention effectiveness.</li>
+                        <li>Created geospatial visualizations to pinpoint high-risk regions, guiding targeted interventions and resource allocation for improved community health</li>
+                    </ul>
+        </div>
+
+        <div className="experience">
+            <h4>Research Assistant</h4>
+                <p>Diabetes Translational Research Center - IU School of Medicine</p>
+                <p>Indianapolis, IN | October 2014 - July 2016</p>
+                    <ul>
+                        <li>Analyzed demographic, health habits, and diabetes knowledge data from a pool of 107 conference attendees using SPSS. This data-driven assessment strategically informed enhancements to conference structure and content, resulting in a more impactful and tailored experience for participants.</li>
+                    </ul>
+        </div>
+
+        <div className="experience">
+            <h4>Epidemiology Intern</h4>
+                <p>Jump IN for Healthy Kids</p>
+                <p>Indianapolis, IN | June 2015 - October 2015</p>
+                    <ul>
+                        <li>Conducted SAS-based baseline analysis, revealing a 43% childhood overweight/obesity rate in the 8-county region of central Indiana.</li>
+                        <li>Created a comprehensive 2015-2025 Sampling Plan Manual, empowering stakeholders with data-driven insights to monitor child overweight/obesity trends, leading to informed decision-making and target interventions.</li>
                     </ul>
         </div>
         
         <h3>EDUCATION</h3>
             <div className="education">
-                <h4>Full Stack Web Development Bootcamp</h4>
-                <p>Rice University</p>
-                <p>Feb 2023 - Aug 2023</p>
+                <h4>Certificate in Full Stack Web Development</h4>
+                <p>Rice University Bootcamp</p>
+                <p>February 2023 - August 2023</p>
             </div>
 
             <div className="education">
                 <h4>Data Analytics Bootcamp</h4>
                 <p>Thinkful</p>
-                <p>Feb 2020</p>
+                <p>November 2019 - February 2020</p>
             </div>
 
             <div className="education">
                 <h4>Master of Public Health in Epidemiology</h4>
                 <p>Indiana University-Purdue University Indianapolis</p>
-                <p>May 2016</p>
+                <p>August 2014 - May 2016</p>
             </div>
 
             <div className="education">
                 <h4>Bachelor of Science in Biochemistry</h4>
                 <p>Calvin College</p>
-                <p>May 2014</p>
+                <p>August 2010 - May 2014</p>
             </div>
         </div>
     </div>
