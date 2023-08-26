@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.9bc6016e.css",
-    "main.js": "/react-portfolio/static/js/main.83a8b588.js",
+    "main.js": "/react-portfolio/static/js/main.2c56292c.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/horiseon-webpage-screenshot.png": "/react-portfolio/static/media/horiseon-webpage-screenshot.4607de4496e51b6dbd61.png",
     "static/media/houston-hot-spots-scrnsht.png": "/react-portfolio/static/media/houston-hot-spots-scrnsht.f0dacb6631a6b4e60ef0.png",
@@ -22,11 +22,11 @@
     "static/media/fa-v4compatibility.woff2": "/react-portfolio/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/react-portfolio/index.html",
     "main.9bc6016e.css.map": "/react-portfolio/static/css/main.9bc6016e.css.map",
-    "main.83a8b588.js.map": "/react-portfolio/static/js/main.83a8b588.js.map",
+    "main.2c56292c.js.map": "/react-portfolio/static/js/main.2c56292c.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9bc6016e.css",
-    "static/js/main.83a8b588.js"
+    "static/js/main.2c56292c.js"
   ]
 }
