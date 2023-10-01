@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutPhoto from '../Assets/jmphoto.jpeg';
+import aboutPhoto from '../Assets/Image.png';
 import './about.css';
 
 function About() {
@@ -21,7 +21,7 @@ function About() {
                         and improving web applications.
                     </p>
                     <p>
-                    My technical skills include proficiency in <strong>HTML, CSS, JavaScript, ReactJS, Node.js, Express.js, MongoDB, and MySQL</strong>. I am adept 
+                    My technical skills include proficiency in <strong>HTML, CSS, JavaScript, ReactJS, Node.js, Express.js, MongoDB, MySQL, and Python</strong>. I am adept 
                     at building interactive and user-friendly web applications that deliver seamless user experiences.
                     </p>
                     <p>
