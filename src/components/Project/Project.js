@@ -27,8 +27,8 @@ function Project() {
     <section id="work" className="container">
         <h2>Projects</h2>
         <div className="row card-deck">
-                <div className="col-mb-3">
-                    <div className="card">
+                <div className="col-md-6 col-lg-6 mb-4">
+                    <div className="card" style={{ marginBottom: '20px'}}>
                         <div className="card-body">
                             <a href="https://jomaduagwu.github.io/project-houston-hot-spots/" >
                                 <img src={hotspots} className="card-img-top" alt="Houston Hot Spots Project" />
@@ -39,18 +39,19 @@ function Project() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="card md-6">
+            {/* </div> */}
+            <div className="card md-6" style={{ marginBottom: '20px'}}>
                 <a href="https://jomaduagwu.github.io/react-portfolio/">
-                    <img src={wanderjo} className="card-img-top" alt="WanderJo Travel App" />
-                </a>
+                    <img src={wanderjo} className="card-img-top coding-quiz-image" alt="WanderJo Travel App" />
+                </a>   
                 <div className="card-body">
                     <h5 className="card-title">WanderJo Travel App</h5>
                     <p className="card-text">A trip planner designed to help users search for travel destinations and discover exciting attractions.</p>
                     <a href={repoLinks.wanderjo}>GitHub Repository</a>
                 </div>
             </div>
-            <div className="card md-6">
+            </div>
+            {/* <div className="card md-6">
                 <a href="https://jomaduagwu.github.io/horiseon-code-refactor/">
                     <img src={horiseon} className="card-img-top" alt="Horiseon Code Refactor Project" />
                 </a>
@@ -59,24 +60,10 @@ function Project() {
                     <p className="card-text">A refactor of Horiseon's starter code, improving the structure of the program and the codebase for long-term sustainability</p>
                     <a href={repoLinks.horiseon}>GitHub Repository</a>
                 </div>
-            </div>
-            {/* <div className="row card-deck">
-                <div className="col-md-3">
-                    <div className="card">
-                        <div className="card-body">
-                            <a href="https://jomaduagwu.github.io/project-houston-hot-spots/" >
-                                <img src={hotspots} className="card-img-top" alt="Houston Hot Spots Project" />
-                            </a>
-                            <h5 className="card-title">Houston Hot Spots</h5>
-                            <p className="card-text">An application to find popular events, businesses and attractions in the Houston area. It can provide suggestions based on user's preferences.</p>
-                            <a href={repoLinks.hotspots}>GitHub Repository</a>
-                        </div>
-                    </div>
-                </div>
             </div> */}
             <div className="row card-deck">
-                <div className="col-md-6">
-                    <div className="card">
+                <div className="col-md-6 col-lg-6 mb-4">
+                    <div className="card" style={{ marginBottom: '20px'}}>
                         <div className="card-body">
                             <a href="https://bookmanagement.herokuapp.com/">
                                 <img src={booktrackr} className="card-img-top" alt="Book Trackr Project" />
@@ -88,8 +75,8 @@ function Project() {
                     </div>
                 </div>
             </div>
-                <div className="col-md-6">
-                    <div className="card">
+                <div className="col-md-6 col-lg-6 mb-4">
+                    <div className="card" style={{ marginBottom: '20px'}}>
                         <div className="card-body">
                             <a href="https://jomaduagwu.github.io/friendly-parakeet/">
                                 <img src={pswdgen} className="card-img-top" alt="Password generator" />
@@ -102,11 +89,11 @@ function Project() {
                 </div>
             {/* </div> */}
             <div className="row card-deck">
-                <div className="col-md-6">
+                <div className="col-md-6 col-lg-6 mb-4">
                     <div className="card">
                         <div className="card-body">
                             <a href="https://jomaduagwu.github.io/code-quiz/">
-                                <img src={codingquiz}  alt="Coding Quiz Project" />
+                                <img src={codingquiz}  alt="Coding Quiz Project" className="card-img-top coding-quiz-image"/>
                             </a>
                             <h5 className="card-title">Web API's Quiz</h5>
                             <p className="card-text">A timed quiz on JavaScript fundamentals that stores high scores and enables the user to compare their progress to others taking the quiz</p>
@@ -115,7 +102,7 @@ function Project() {
                     </div>
                 </div>
                 
-                <div className="col-md-6">
+                {/* <div className="col-md-6 col-lg-6 mb-4">
                     <div className="card">
                         <div className="card-body">
                             <a href="https://jomaduagwu.github.io/work-day-scheduler/">
@@ -126,7 +113,7 @@ function Project() {
                             <a href={repoLinks.scheduler}>GitHub Repository</a>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
     </section>
 )};
