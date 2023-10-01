@@ -60,7 +60,7 @@ function Contact () {
             <div className="contact-info">
                 <h2>Want to get in touch?</h2>
                 <div className="contact-details">
-                    <p> My Phone Number: 123-456-7890</p>
+                    <p> My Phone Number: 346-329-2655</p>
                     <p>My Email: jomaduagwu@gmail.com</p>
                     <p><a href="https://www.linkedin.com/in/jochebed-maduagwu/"><i className="fab fa-linkedin"></i> My LinkedIn</a></p>
                     <p><a href="https://github.com/jomaduagwu"><i className="fab fa-github"></i>My GitHub</a></p>
